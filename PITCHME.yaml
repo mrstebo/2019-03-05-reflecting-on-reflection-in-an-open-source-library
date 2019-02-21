@@ -1,0 +1,16 @@
+# Layout
+layout : center
+
+# Look-and-Feel
+title: Reflecting on Reflection in an open source library
+logo : assets/images/logo.png
+logo-position : top-left
+theme : night
+theme-override : assets/css/PITCHME.css
+highlight : ir-black
+code-line-numbers : true
+# code-reveal : true
+
+# Behavior
+transition : slide
+published : false
