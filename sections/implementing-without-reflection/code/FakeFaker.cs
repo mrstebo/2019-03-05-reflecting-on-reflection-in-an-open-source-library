@@ -57,8 +57,16 @@ namespace FakerDotNet.Fakers
             object value = null;
             switch (faker.ToLowerInvariant())
             {
+                case "app":
+                    value = GetValueForAppFaker(method);
+                    break;
+
                 case "name":
                     value = GetValueForNameFaker(method);
+                    break;
+
+                case "university":
+                    value = GetValueForUniversityFaker(method);
                     break;
 
                 default:
@@ -66,6 +74,24 @@ namespace FakerDotNet.Fakers
             }
 
             return value ?? throw new FormatException($"Invalid method: {faker}.{method}");
+        }
+
+        private object GetValueForAppFaker(string method)
+        {
+            switch (method.ToLowerInvariant())
+            {
+                case "name":
+                    return _fakerContainer.App.Name();
+
+                case "version":
+                    return _fakerContainer.App.Version();
+
+                case "author":
+                    return _fakerContainer.App.Author();
+
+                default:
+                    return null;
+            }
         }
 
         private object GetValueForNameFaker(string method)
@@ -77,6 +103,45 @@ namespace FakerDotNet.Fakers
 
                 case "lastname":
                     return _fakerContainer.Name.LastName();
+
+                case "name":
+                    return _fakerContainer.Name.Name();
+
+                case "namewithmiddle":
+                    return _fakerContainer.Name.NameWithMiddle();
+
+                case "prefix":
+                    return _fakerContainer.Name.Prefix();
+
+                case "suffix":
+                    return _fakerContainer.Name.Suffix();
+
+                case "title":
+                    return _fakerContainer.Name.Title();
+
+                default:
+                    return null;
+            }
+        }
+
+        private object GetValueForUniversityFaker(string method)
+        {
+            switch (method.ToLowerInvariant())
+            {
+                case "name":
+                    return _fakerContainer.University.Name();
+
+                case "prefix":
+                    return _fakerContainer.University.Prefix();
+
+                case "suffix":
+                    return _fakerContainer.University.Suffix();
+
+                case "greekorganization":
+                    return _fakerContainer.University.GreekOrganization();
+
+                case "greekalphabet":
+                    return _fakerContainer.University.GreekAlphabet();
 
                 default:
                     return null;
