@@ -18,6 +18,4 @@
 
 ---?include=sections/implementing-with-reflection/PITCHME.md
 
----
-
-# @color[#DC143C](THANK YOU)
+---?include=sections/summary/PITCHME.md
