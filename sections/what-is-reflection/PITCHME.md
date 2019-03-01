@@ -105,3 +105,20 @@ Console.WriteLine(fullName);
 @[3](Look for the @color[#DC143C](FullName) method on that @color[#DC143C](`Type`))
 @[4](Invoke the method to get the @color[#DC143C](value) that is returned)
 @[6](Returns @color[#DC143C](John Smith))
+
+---
+
+@snap[north]
+#### Want to know more?
+@snapend
+
+### Check out this talk by
+## David Whitney
+
+...
+
+How Stuff Works in C# - Meta Programming 101
+
+@snap[south]
+https://www.youtube.com/watch?v=cnpFNUFRqjQ
+@snapend
