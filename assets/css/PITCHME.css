@@ -24,3 +24,8 @@ bio {
     color: darkgray;
     font-size: 0.6em !important;
 }
+
+.thanks {
+    color: #DEA43C;
+    text-shadow: 5px 5px 2px #202020;
+}

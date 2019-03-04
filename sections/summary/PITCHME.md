@@ -20,10 +20,10 @@
 
 @ulend
 
----?image=assets/images/aha.jpg
+---?image=assets/images/aha.jpg&opacity=70
 
-@emoji[beers]
+### @emoji[beers]
 
 @snap[south]
-# @color[#DC143C](Cheers!)
+# @css[thanks](Cheers!)
 @snapend
