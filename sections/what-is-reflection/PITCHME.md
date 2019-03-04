@@ -113,7 +113,7 @@ Console.WriteLine(fullName);
 @snapend
 
 ### Check out this talk by
-## David Whitney
+## @color[#DC143C](David Whitney)
 
 ...
 
