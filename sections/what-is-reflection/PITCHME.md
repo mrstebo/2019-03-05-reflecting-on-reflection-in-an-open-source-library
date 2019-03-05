@@ -43,7 +43,6 @@ public class Person
 ### on the class
 
 ---
-@transition[none]
 
 ```cs
 var person = new Person
@@ -119,6 +118,6 @@ Console.WriteLine(fullName);
 
 How Stuff Works in C# - Meta Programming 101
 
-@snap[south]
-https://www.youtube.com/watch?v=cnpFNUFRqjQ
+@snap[south span-80]
+@css[link](https://www.youtube.com/watch?v=cnpFNUFRqjQ)
 @snapend
