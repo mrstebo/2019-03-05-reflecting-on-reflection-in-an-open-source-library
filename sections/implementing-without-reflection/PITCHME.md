@@ -1,11 +1,15 @@
-#### Is there a way to do this
+@quote[You don't need reflection for that](Jack)
+
+---
+
+#### So lets implement this
 # @color[#DC143C](WITHOUT)
 ## reflection?
 
 ---
 
-# @color[#DC143C](YES)
-@emoji[eyes]
+# @color[#DC143C](How?)
+@emoji[thinking_face]
 
 ---
 
@@ -31,7 +35,7 @@
 
 @code[cs zoom-06](sections/implementing-without-reflection/code/F_method.cs)
 
-@[3](Handle @color[#DC143C](empty) or @color[#DC143C](null) strings @emoji[punch]))
+@[3](Handle @color[#DC143C](empty) or @color[#DC143C](null) strings @emoji[punch])
 @[5](Create a local variable to store the @color[#DC143C](result))
 @[6](Create a local variable to store the @color[#DC143C](match) so we can use in it in our `while` loop below)
 @[7](Find a @color[#DC143C](match) in the string)
