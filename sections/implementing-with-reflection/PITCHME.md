@@ -29,12 +29,14 @@
 
 @code[cs zoom-07](sections/implementing-with-reflection/code/ExtractMatchFrom_method.cs)
 
+@[](Nothing new here)
+
 ---
 @transition[none]
 
 @code[cs zoom-07](sections/implementing-with-reflection/code/F_method.cs)
 
-@[9]
+@[9](We have added this @color[#DC143C](new) method @emoji[open_mouth])
 
 ---
 @transition[none]
