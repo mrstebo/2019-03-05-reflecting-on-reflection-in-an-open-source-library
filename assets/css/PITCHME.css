@@ -25,6 +25,24 @@ bio {
     font-size: 0.6em !important;
 }
 
+.social:hover {
+    color: #DC143C;
+}
+
+.link a {
+    display: block;
+    color: darkgray;
+    font-size: 0.6em;
+}
+
+.link a:hover {
+    color: #DC143C;
+}
+
+.website a {
+    text-align: center;
+}
+
 .thanks {
     color: #DEA43C;
     text-shadow: 5px 5px 2px #202020;

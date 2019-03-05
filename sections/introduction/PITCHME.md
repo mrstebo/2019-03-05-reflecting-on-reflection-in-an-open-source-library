@@ -4,13 +4,14 @@
 ![](assets/images/me.jpg)
 <br />
 @snap[social-icons]
-@css[social](@fa[github pad-fa])
-@css[social](@fa[gitlab pad-fa])
-@css[social](@fa[bitbucket pad-fa])
-@css[social](@fa[twitter pad-fa])
-@css[social](@fa[linkedin pad-fa])
-@css[social](@fa[meetup pad-fa])
+[@css[social](@fa[github pad-fa])](github)
+[@css[social](@fa[gitlab pad-fa])](gitlab)
+[@css[social](@fa[bitbucket pad-fa])](bitbucket)
+[@css[social](@fa[twitter pad-fa])](twitter)
+[@css[social](@fa[linkedin pad-fa])](linkedin)
+[@css[social](@fa[meetup pad-fa])](meetup)
 @snapend
+@css[website link](https://mrstebo.co.uk)
 @snapend
 
 @snap[east me span-60]
