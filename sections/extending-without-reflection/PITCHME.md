@@ -49,7 +49,7 @@
 ---
 
 ## Why is this a
-# @color[#DC143C](BAD)
+# @color[#DC143C]("BAD")
 ## approach?
 
 @emoji[thinking_face]
