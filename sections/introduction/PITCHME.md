@@ -19,5 +19,5 @@
 
 #### Software Engineer
 ### @
-![Dootrix](assets/images/dootrix.png)
+![Dootrix](assets/images/dootrix-white.png)
 @snapend
